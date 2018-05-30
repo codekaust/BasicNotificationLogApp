@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">BasicNotificationLogApp</string>
+    <string name="service_label">NotificationListener_Service</string>
+</resources>
