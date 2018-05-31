@@ -80,7 +80,7 @@ public class NotificationListener_Service extends NotificationListenerService {
                 // Transaction was a success.
                 Log.v("NotifService", "DB_Inserted_Success");
 
-                Toast.makeText(NotificationListener_Service.this, "Written in DB", Toast.LENGTH_SHORT).show();
+                Toast.makeText(NotificationListener_Service.this, "Written to DB", Toast.LENGTH_SHORT).show();
             }
         }, new Realm.Transaction.OnError() {
             @Override

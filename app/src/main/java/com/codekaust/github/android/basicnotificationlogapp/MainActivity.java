@@ -82,6 +82,7 @@ public class MainActivity extends AppCompatActivity {
         RealmResults<NotificStorageRealm> RRobjectNotificStorageRealms = realm.where(NotificStorageRealm.class).findAll();
 
         realm.beginTransaction();
+        listNotifs.clear();
         for (NotificStorageRealm notificStorageRealm : RRobjectNotificStorageRealms) {
             listNotifs.add(notificStorageRealm);
         }
