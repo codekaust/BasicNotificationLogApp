@@ -10,8 +10,16 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:text="CREATE NOTIFICATION"
+        android:id="@+id/btn_createNotif"
+        android:padding="15dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:text="REFRESH"
-        android:onClick="updateArrayList"
+        android:id="@+id/btn_refreshList"
         android:padding="15dp"
         />
     <ListView
